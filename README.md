@@ -14,8 +14,12 @@ Source code for a License plate recognition ([ANPR]) demo for iOS using [OpenCV]
   - Require `<opencv2.framework>`
   - Tesseract OCR lang file (`testdata/eng.traineddata`) was trained using this [Gist] script file and a License Plate font.
 
+# CocoaPods
+ - OpenCV
+ - TesseractOCRiOS
+
 #Version
-1.0
+0.5
 
 ##Improvements
 * Improve image processing.
@@ -26,9 +30,9 @@ Source code for a License plate recognition ([ANPR]) demo for iOS using [OpenCV]
 * Better image crop.
 
 ##Supports
-* iOS 6.0 or later.
-* Xcode 4.6 (ARC enabled).
-* Required frameworks: opencv2, UIKit, CoreGraphics and ImageIO.
+* iOS 7.0 or later.
+* Xcode 8.0
+* Required frameworks: UIKit, CoreGraphics and ImageIO.
 
 #Contact
 <a href="https://twitter.com/chroman">Follow @chroman</a>
@@ -46,6 +50,6 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED ‘AS IS’, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 [ANPR]: http://en.wikipedia.org/wiki/Automatic_number_plate_recognition
-[Tesseract OCR]: https://code.google.com/p/tesseract-ocr/
+[Tesseract-OCR-iOS]: https://github.com/gali8/Tesseract-OCR-iOS
 [OpenCV]: http://opencv.org/
 [Gist]: https://gist.github.com/chroman/5745206
