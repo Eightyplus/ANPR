@@ -358,7 +358,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/ANPR/dependencies/lib\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dk.eightyplus.ANPR;
+				PRODUCT_BUNDLE_IDENTIFIER = your.dev.identifier.ANPR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -384,7 +384,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/ANPR/dependencies/lib\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dk.eightyplus.ANPR;
+				PRODUCT_BUNDLE_IDENTIFIER = your.dev.identifier.ANPR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
